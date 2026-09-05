@@ -1,21 +1,21 @@
 holiday_name,occurrences,avg_holiday_mu,avg_normal_mu,diff_pct
-Mahatma Gandhi's Jayanti,10,156.9,172.4,-9.02
+Mahatma Gandhi's Birthday,10,156.9,172.4,-9.02
 Dussehra,10,157.4,171.9,-8.45
 Karnataka Rajyotsava,9,170.8,184.5,-7.39
 Diwali (Deepavali),11,164.2,173.2,-5.19
-Milad-un-Nabi,10,180.8,187.9,-3.79
+Prophet's Birthday,10,180.8,187.9,-3.79
 Independence Day,11,166.9,172.8,-3.41
 Good Friday,9,233.1,241.2,-3.36
 Ugadi,12,223.7,229.9,-2.68
-Id-ul-Zuha (Bakrid),10,163.0,167.2,-2.5
-Mahavir Jayanti,11,218.3,223.0,-2.09
-Muharram,11,171.0,173.9,-1.67
-Dr. B. R. Ambedkar's Jayanti,10,220.5,223.5,-1.38
-Guru Nanak's Jayanti,11,182.8,185.0,-1.17
+Eid al-Adha,10,163.0,167.2,-2.5
+Mahavira's Birthday,11,218.3,223.0,-2.09
+Ashura,11,171.0,173.9,-1.67
+Dr. B. R. Ambedkar's Birthday,10,220.5,223.5,-1.38
+Guru Nanak's Birthday,11,182.8,185.0,-1.17
 Janmashtami (Vaishnava),7,188.2,189.1,-0.47
 Republic Day,11,207.3,208.0,-0.35
 Holi,11,241.1,241.5,-0.15
 Buddha Purnima,11,194.3,194.3,-0.02
-Id-ul-Fitr,11,201.3,200.3,0.51
+Eid al-Fitr,11,201.3,200.3,0.51
 Ram Navami,9,225.0,218.0,3.23
 Christmas,11,196.4,187.1,4.97
