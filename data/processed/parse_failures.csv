@@ -1,0 +1,211 @@
+date,problem,detail,what_i_did
+2013-06-26,"duplicate date, values disagree","totals [2690.0, 2733.2], row sums off by [54.6, 54.6]","kept Total=2690.0, the one closest to its own row sum"
+2013-07-04,"duplicate date, values disagree","totals [2697.9, 2703.1], row sums off by [66.0, 66.0]","kept Total=2703.1, the one closest to its own row sum"
+2013-12-31,duplicate date,identical rows,kept the first
+2014-04-05,duplicate date,identical rows,kept the first
+2014-04-08,duplicate date,identical rows,kept the first
+2014-04-11,duplicate date,identical rows,kept the first
+2014-04-21,duplicate date,identical rows,kept the first
+2014-04-28,"duplicate date, values disagree","totals [2984.6, 3023.8], row sums off by [66.7, 68.7]","kept Total=3023.8, the one closest to its own row sum"
+2014-07-10,duplicate date,identical rows,kept the first
+2014-12-10,"duplicate date, values disagree","totals [2867.8, 2872.3], row sums off by [60.9, 60.9]","kept Total=2872.3, the one closest to its own row sum"
+2014-12-12,duplicate date,identical rows,kept the first
+2014-12-27,"duplicate date, values disagree","totals [2835.6, 2857.6], row sums off by [59.0, 59.0]","kept Total=2835.6, the one closest to its own row sum"
+2014-12-31,duplicate date,identical rows,kept the first
+2015-01-27,duplicate date,identical rows,kept the first
+2015-02-05,duplicate date,identical rows,kept the first
+2015-03-22,duplicate date,identical rows,kept the first
+2015-04-05,"duplicate date, values disagree","totals [2786.9, 2862.3], row sums off by [65.1, 66.0]","kept Total=2786.9, the one closest to its own row sum"
+2015-04-08,duplicate date,identical rows,kept the first
+2015-05-09,duplicate date,identical rows,kept the first
+2015-12-31,duplicate date,identical rows,kept the first
+2016-02-25,duplicate date,identical rows,kept the first
+2016-03-06,duplicate date,identical rows,kept the first
+2016-05-10,duplicate date,identical rows,kept the first
+2016-05-26,"duplicate date, values disagree","totals [3159.0, 3231.9], row sums off by [71.7, 72.2]","kept Total=3159.0, the one closest to its own row sum"
+2016-06-07,duplicate date,identical rows,kept the first
+2016-06-08,duplicate date,identical rows,kept the first
+2016-06-10,duplicate date,identical rows,kept the first
+2016-06-11,duplicate date,identical rows,kept the first
+2016-06-12,duplicate date,identical rows,kept the first
+2016-06-13,duplicate date,identical rows,kept the first
+2016-06-14,duplicate date,identical rows,kept the first
+2016-06-15,duplicate date,identical rows,kept the first
+2016-10-01,"duplicate date, values disagree","totals [2902.5, 3235.7], row sums off by [68.5, 73.8]","kept Total=2902.5, the one closest to its own row sum"
+2016-10-13,duplicate date,identical rows,kept the first
+2016-12-13,duplicate date,identical rows,kept the first
+2017-01-28,duplicate date,identical rows,kept the first
+2017-01-29,duplicate date,identical rows,kept the first
+2017-01-30,duplicate date,identical rows,kept the first
+2017-01-31,duplicate date,identical rows,kept the first
+2017-02-01,duplicate date,identical rows,kept the first
+2017-03-07,duplicate date,identical rows,kept the first
+2017-04-02,duplicate date,identical rows,kept the first
+2017-04-14,"duplicate date, values disagree","totals [3480.0, 3489.6], row sums off by [73.9, 75.7]","kept Total=3480.0, the one closest to its own row sum"
+2017-05-13,duplicate date,identical rows,kept the first
+2017-05-25,duplicate date,identical rows,kept the first
+2017-06-05,duplicate date,identical rows,kept the first
+2017-09-15,duplicate date,identical rows,kept the first
+2018-01-23,duplicate date,identical rows,kept the first
+2018-03-25,duplicate date,identical rows,kept the first
+2018-07-08,duplicate date,identical rows,kept the first
+2018-10-22,duplicate date,identical rows,kept the first
+2019-02-25,"duplicate date, values disagree","totals [3440.0, 3448.3], row sums off by [75.2, 75.6]","kept Total=3440.0, the one closest to its own row sum"
+2019-08-25,duplicate date,identical rows,kept the first
+2020-06-20,duplicate date,identical rows,kept the first
+2022-12-27,duplicate date,identical rows,kept the first
+2013-04-01,ragged start,Jan-Mar 2013 has 82 of 90 days missing,"cut the series to start 2013-04-01, lost 8 rows"
+2013-05-30,missing day,no row published for this date,"left as a gap, not interpolated"
+2013-06-01,missing day,no row published for this date,"left as a gap, not interpolated"
+2013-06-03,missing day,no row published for this date,"left as a gap, not interpolated"
+2013-06-28,missing day,no row published for this date,"left as a gap, not interpolated"
+2013-07-27,missing day,no row published for this date,"left as a gap, not interpolated"
+2013-08-13,missing day,no row published for this date,"left as a gap, not interpolated"
+2013-08-28,missing day,no row published for this date,"left as a gap, not interpolated"
+2013-08-29,missing day,no row published for this date,"left as a gap, not interpolated"
+2013-09-14,missing day,no row published for this date,"left as a gap, not interpolated"
+2013-09-20,missing day,no row published for this date,"left as a gap, not interpolated"
+2013-09-23,missing day,no row published for this date,"left as a gap, not interpolated"
+2013-10-15,missing day,no row published for this date,"left as a gap, not interpolated"
+2014-01-01,missing day,no row published for this date,"left as a gap, not interpolated"
+2014-01-02,missing day,no row published for this date,"left as a gap, not interpolated"
+2014-01-03,missing day,no row published for this date,"left as a gap, not interpolated"
+2014-01-04,missing day,no row published for this date,"left as a gap, not interpolated"
+2014-01-05,missing day,no row published for this date,"left as a gap, not interpolated"
+2014-01-06,missing day,no row published for this date,"left as a gap, not interpolated"
+2014-01-07,missing day,no row published for this date,"left as a gap, not interpolated"
+2014-04-29,missing day,no row published for this date,"left as a gap, not interpolated"
+2014-12-14,missing day,no row published for this date,"left as a gap, not interpolated"
+2015-03-20,missing day,no row published for this date,"left as a gap, not interpolated"
+2015-04-06,missing day,no row published for this date,"left as a gap, not interpolated"
+2015-05-02,missing day,no row published for this date,"left as a gap, not interpolated"
+2015-06-04,missing day,no row published for this date,"left as a gap, not interpolated"
+2015-06-05,missing day,no row published for this date,"left as a gap, not interpolated"
+2015-06-06,missing day,no row published for this date,"left as a gap, not interpolated"
+2015-07-03,missing day,no row published for this date,"left as a gap, not interpolated"
+2015-07-12,missing day,no row published for this date,"left as a gap, not interpolated"
+2015-07-13,missing day,no row published for this date,"left as a gap, not interpolated"
+2015-09-04,missing day,no row published for this date,"left as a gap, not interpolated"
+2015-09-05,missing day,no row published for this date,"left as a gap, not interpolated"
+2015-09-22,missing day,no row published for this date,"left as a gap, not interpolated"
+2015-10-29,missing day,no row published for this date,"left as a gap, not interpolated"
+2016-02-29,missing day,no row published for this date,"left as a gap, not interpolated"
+2016-03-07,missing day,no row published for this date,"left as a gap, not interpolated"
+2016-03-23,missing day,no row published for this date,"left as a gap, not interpolated"
+2016-03-25,missing day,no row published for this date,"left as a gap, not interpolated"
+2016-04-11,missing day,no row published for this date,"left as a gap, not interpolated"
+2016-06-21,missing day,no row published for this date,"left as a gap, not interpolated"
+2016-06-22,missing day,no row published for this date,"left as a gap, not interpolated"
+2016-06-26,missing day,no row published for this date,"left as a gap, not interpolated"
+2016-07-06,missing day,no row published for this date,"left as a gap, not interpolated"
+2016-07-10,missing day,no row published for this date,"left as a gap, not interpolated"
+2016-11-01,missing day,no row published for this date,"left as a gap, not interpolated"
+2016-11-15,missing day,no row published for this date,"left as a gap, not interpolated"
+2016-11-23,missing day,no row published for this date,"left as a gap, not interpolated"
+2016-12-15,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-01-01,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-01-08,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-02-06,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-02-11,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-02-12,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-02-13,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-02-14,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-02-15,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-02-16,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-02-17,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-02-18,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-02-19,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-02-28,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-03-02,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-03-15,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-03-17,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-03-18,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-03-19,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-03-20,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-03-21,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-03-22,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-03-23,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-03-29,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-04-15,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-05-21,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-06-16,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-07-05,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-11-28,missing day,no row published for this date,"left as a gap, not interpolated"
+2017-11-29,missing day,no row published for this date,"left as a gap, not interpolated"
+2018-08-18,missing day,no row published for this date,"left as a gap, not interpolated"
+2018-08-19,missing day,no row published for this date,"left as a gap, not interpolated"
+2018-08-20,missing day,no row published for this date,"left as a gap, not interpolated"
+2018-08-21,missing day,no row published for this date,"left as a gap, not interpolated"
+2018-08-22,missing day,no row published for this date,"left as a gap, not interpolated"
+2018-11-26,missing day,no row published for this date,"left as a gap, not interpolated"
+2019-02-26,missing day,no row published for this date,"left as a gap, not interpolated"
+2019-06-10,missing day,no row published for this date,"left as a gap, not interpolated"
+2019-10-22,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-04-26,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-05-12,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-06-23,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-06-30,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-07-01,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-08-02,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-08-03,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-08-04,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-08-05,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-08-11,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-08-12,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-08-20,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-08-24,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-08-25,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-08-26,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-08-27,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-08-28,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-08-29,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-09-02,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-09-03,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-09-04,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-09-11,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-09-12,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-09-13,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-09-14,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-09-17,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-09-18,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-09-19,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-09-20,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-09-21,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-09-22,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-09-23,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-09-27,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-09-28,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-10-02,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-10-08,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-10-13,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-10-14,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-10-19,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-10-20,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-10-22,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-10-29,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-10-30,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-11-01,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-11-08,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-11-21,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-11-23,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-12-08,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-12-09,missing day,no row published for this date,"left as a gap, not interpolated"
+2020-12-10,missing day,no row published for this date,"left as a gap, not interpolated"
+2021-02-02,missing day,no row published for this date,"left as a gap, not interpolated"
+2021-03-15,missing day,no row published for this date,"left as a gap, not interpolated"
+2021-04-15,missing day,no row published for this date,"left as a gap, not interpolated"
+2021-04-16,missing day,no row published for this date,"left as a gap, not interpolated"
+2021-04-22,missing day,no row published for this date,"left as a gap, not interpolated"
+2021-05-31,missing day,no row published for this date,"left as a gap, not interpolated"
+2021-06-01,missing day,no row published for this date,"left as a gap, not interpolated"
+2021-06-02,missing day,no row published for this date,"left as a gap, not interpolated"
+2021-06-03,missing day,no row published for this date,"left as a gap, not interpolated"
+2021-07-10,missing day,no row published for this date,"left as a gap, not interpolated"
+2021-09-05,missing day,no row published for this date,"left as a gap, not interpolated"
+2021-09-23,missing day,no row published for this date,"left as a gap, not interpolated"
+2021-10-15,missing day,no row published for this date,"left as a gap, not interpolated"
+2022-04-22,missing day,no row published for this date,"left as a gap, not interpolated"
+2022-06-14,missing day,no row published for this date,"left as a gap, not interpolated"
+2022-11-30,missing day,no row published for this date,"left as a gap, not interpolated"
+2022-12-02,missing day,no row published for this date,"left as a gap, not interpolated"
+2023-03-30,missing day,no row published for this date,"left as a gap, not interpolated"
