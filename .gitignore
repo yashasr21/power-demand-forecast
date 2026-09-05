@@ -1,0 +1,10 @@
+# The database is rebuilt from the CSVs in about four seconds, so it does not
+# belong in version control.
+data/demand.db
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
