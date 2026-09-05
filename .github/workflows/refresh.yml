@@ -1,0 +1,70 @@
+name: Rebuild the pipeline and the dashboard
+
+# Two jobs in one. It re-downloads the source and rebuilds every output on a
+# schedule, and it proves the whole pipeline still runs from a clean checkout
+# with nothing cached from my laptop.
+#
+# Honest note: the source file this currently reads is a static published
+# extraction, so most weeks this run changes nothing and commits nothing. That
+# is the expected result, not a broken workflow. The day the source updates,
+# the dashboard updates with it.
+
+on:
+  schedule:
+    - cron: "30 1 * * 1"        # 07:00 IST every Monday
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["src/**", "sql/**", ".github/workflows/**"]
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Download source data
+        run: python src/01_download.py
+
+      - name: Build the daily table
+        run: python src/02_build_daily_table.py
+
+      - name: Fetch weather
+        continue-on-error: true      # the run should not die if Open-Meteo is down
+        run: python src/03_get_weather.py
+
+      - name: Join, check, explore
+        run: |
+          python src/04_join.py
+          python src/05_quality_checks.py
+          python src/06_explore.py
+
+      - name: SQL layer
+        run: python src/07_load_sqlite.py
+
+      - name: Models and dashboard
+        run: |
+          python src/08_models.py
+          python src/09_build_dashboard.py
+
+      - name: Commit anything that changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          if git diff --staged --quiet; then
+            echo "nothing changed, source data is the same as last run"
+          else
+            git commit -m "Weekly rebuild: refresh data, metrics and dashboard"
+            git push
+          fi
