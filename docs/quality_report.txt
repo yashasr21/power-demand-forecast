@@ -1,0 +1,31 @@
+Data quality gate — Karnataka daily demand
+input: model_input.csv
+rows: 4,046   days with demand: 3,892
+result: 13 of 13 checks passed
+
+[PASS] no duplicate dates
+       0 repeated dates
+[PASS] date index is a complete calendar
+       4,046 rows against 4,046 calendar days
+[PASS] demand present on at least 95% of days
+       3,892 of 4,046 days, 96.2%
+[PASS] all demand values positive
+       minimum 112.2 MU
+[PASS] demand inside a plausible 60-500 MU band for Karnataka
+       0 days outside, observed range 112.2 to 336.9 MU
+[PASS] no day-on-day jump over 40%
+       0 such days
+[PASS] no gap longer than 10 consecutive days
+       longest run of missing days is 9
+[PASS] every weekday appears a similar number of times
+       spread across weekdays is 3.4 days
+[PASS] holiday flag is set on a believable number of days
+       224 holiday days over 12 years
+[PASS] Republic Day is flagged every year it appears
+       spot check on a date I know is a holiday
+[PASS] lag_1 really is the previous calendar day
+       recomputed and compared
+[PASS] trend column increases by exactly one per day
+       no skipped days in the trend counter
+[PASS] Bengaluru max temperature inside 15-45 C
+       observed 18.3 to 38.6 C
