@@ -1,0 +1,78 @@
+{
+  "trend": {
+    "first_year": 2014,
+    "last_year": 2023,
+    "first_mean": 165.3,
+    "last_mean": 250.9,
+    "growth_pct": 51.8,
+    "cagr_pct": 4.75
+  },
+  "weekday": {
+    "values": {
+      "Monday": 194.3,
+      "Tuesday": 196.9,
+      "Wednesday": 197.5,
+      "Thursday": 197.3,
+      "Friday": 198.0,
+      "Saturday": 195.0,
+      "Sunday": 183.8
+    },
+    "lowest_day": "Sunday",
+    "highest_day": "Friday",
+    "gap_pct": 7.7
+  },
+  "monthly": {
+    "values": {
+      "Jan": 211.4,
+      "Feb": 229.8,
+      "Mar": 240.8,
+      "Apr": 224.3,
+      "May": 187.4,
+      "Jun": 175.3,
+      "Jul": 168.2,
+      "Aug": 175.7,
+      "Sep": 174.1,
+      "Oct": 171.2,
+      "Nov": 184.0,
+      "Dec": 193.0
+    },
+    "peak_month": "Mar",
+    "trough_month": "Jul",
+    "gap_pct": 43.2
+  },
+  "holiday": {
+    "n_compared": 212,
+    "avg_diff_pct": -2.0,
+    "quietest": [
+      {
+        "name": "Mahatma Gandhi's Jayanti",
+        "diff_pct": -8.1,
+        "n": 10
+      },
+      {
+        "name": "Dussehra",
+        "diff_pct": -7.7,
+        "n": 10
+      },
+      {
+        "name": "Diwali (Deepavali)",
+        "diff_pct": -5.9,
+        "n": 11
+      }
+    ]
+  },
+  "weather": {
+    "status": "joined",
+    "n": 3892,
+    "corr": 0.564,
+    "hot_day_mean": 233.5,
+    "mild_day_mean": 174.1,
+    "uplift_pct": 34.1
+  },
+  "coverage": {
+    "days": 3892,
+    "start": "2013-04-01",
+    "end": "2024-04-28",
+    "mean_mu": 194.7
+  }
+}
