@@ -38,13 +38,23 @@ onto a complete calendar first, so a missing previous day produces an empty lag
 and the model drops that row instead of learning from a lie. There is now a
 quality check that recomputes `lag_1` and compares, so this cannot come back.
 
-**Weather is not in yet.**
-Open-Meteo's archive endpoint was blocked from the build machine. Rather than
-substitute anything, `03_get_weather.py` exits with a message, the weather
-columns stay empty, the weather model is reported as "not run" in the scoreboard
-and the temperature quality check fails visibly. Everything downstream fills in
-once the script runs from a machine with internet.
-**Still to do: run `03_get_weather.py`, then 04, 05, 06, 08, 09 again.**
+**Weather could not be fetched on the first build machine.**
+Open-Meteo's archive endpoint was blocked there. Rather than substitute anything,
+`03_get_weather.py` exits with a message, the weather columns stay empty and the
+temperature quality check fails visibly instead of being quietly removed. Ran it
+later from my own laptop and everything downstream filled in: 4,046 days of
+Bengaluru weather, matched onto all 4,046 rows, temperature 18.3 to 38.6 C, and
+the quality gate went from 12 of 13 to 13 of 13.
+
+**Weather then mattered far less than I expected.**
+Demand and maximum temperature correlate at r=0.564 and the hottest 10% of days
+sit 34.1% above a median day, so I expected the weather model to pull clear.
+It went from 1.80% to 1.68%. Spent a while assuming I had joined something wrong
+before the actual explanation landed: the model already has `lag_1`, and
+yesterday's demand already reflects yesterday's weather, so temperature is only
+contributing the day-on-day change rather than the level. Worth remembering that
+a strong correlation with the target says nothing about how much a feature adds
+on top of the features already in the model.
 
 **The calendar model was terrible and that turned out to be the point.**
 Day of week, month, holiday flag and a linear trend gave 16.42% MAPE. Repeating
@@ -95,7 +105,8 @@ misled by it.
 ## Things I know are still open
 
 - Ten-date verification against the original Grid-India PDFs.
-- Weather fetch, and everything that unlocks.
+- Only maximum temperature was tested. Humidity, or hours above a comfort
+  threshold, would probably be better and neither was tried.
 - One test window, 84 days, all of it pre-monsoon. A monsoon window would very
   likely rank the approaches differently and I have not checked.
 - Daily energy only. Evening peak demand in MW is the number a grid operator
