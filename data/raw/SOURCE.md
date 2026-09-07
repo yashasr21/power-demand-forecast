@@ -1,7 +1,7 @@
 # Where this data came from
 
 **File:** `daily_energy_met_MU.csv`
-**Downloaded:** 2026-09-05
+**Downloaded:** 2026-09-07
 **Fetched from:** https://raw.githubusercontent.com/tanshah0509-dotcom/India-Electricity-Demand-Forecasting/main/Data/daily_energy_met_MU.csv
 **md5:** `c6d677992d4cf6735d09b71823140468`
 **Size:** 815,685 bytes, 3,956 lines
