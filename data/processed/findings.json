@@ -41,9 +41,14 @@
     "gap_pct": 43.2
   },
   "holiday": {
-    "n_compared": 212,
-    "avg_diff_pct": -2.0,
+    "n_compared": 234,
+    "avg_diff_pct": -2.4,
     "quietest": [
+      {
+        "name": "Ganesh Chaturthi",
+        "diff_pct": -9.1,
+        "n": 10
+      },
       {
         "name": "Mahatma Gandhi's Birthday",
         "diff_pct": -8.1,
@@ -53,11 +58,6 @@
         "name": "Dussehra",
         "diff_pct": -7.7,
         "n": 10
-      },
-      {
-        "name": "Diwali (Deepavali)",
-        "diff_pct": -5.9,
-        "n": 11
       }
     ]
   },

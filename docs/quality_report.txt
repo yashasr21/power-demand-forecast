@@ -20,7 +20,7 @@ result: 13 of 13 checks passed
 [PASS] every weekday appears a similar number of times
        spread across weekdays is 3.4 days
 [PASS] holiday flag is set on a believable number of days
-       224 holiday days over 12 years
+       245 holiday days over 12 years
 [PASS] Republic Day is flagged every year it appears
        spot check on a date I know is a holiday
 [PASS] lag_1 really is the previous calendar day

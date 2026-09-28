@@ -1,9 +1,9 @@
 date,day_name,demand_mu,trailing_7day_mu,gap_mu,holiday
 2022-12-11,Sunday,152.3,215.2,-62.9,
 2023-04-30,Sunday,229.1,283.6,-54.5,
-2023-05-01,Monday,223.7,278.2,-54.5,
+2023-05-01,Monday,223.7,278.2,-54.5,May Day
 2022-04-17,Sunday,190.5,244.9,-54.4,
-2019-05-01,Wednesday,180.6,231.6,-51.0,
+2019-05-01,Wednesday,180.6,231.6,-51.0,May Day
 2022-10-02,Sunday,149.2,200.2,-51.0,Mahatma Gandhi's Birthday
 2022-04-15,Friday,213.2,263.2,-50.0,Good Friday
 2023-05-17,Wednesday,274.4,225.7,48.7,
