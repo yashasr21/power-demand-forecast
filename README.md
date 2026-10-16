@@ -8,7 +8,7 @@ Predicting the daily electricity demand of Karnataka using Python and SQL.
 - Can a simple model predict tomorrow's demand better than just using today's value?
 
 ## Data
-- Daily electricity demand of Karnataka from 2013 to April 2024, in MU (million units). This comes from Grid-India's daily reports. I used a public CSV of these reports from [this GitHub repository](https://github.com/tanshah0509-dotcom/India-Electricity-Demand-Forecasting).
+- Daily electricity demand of Karnataka from 2013 to April 2024, in MU (million units). The numbers come from Grid-India's daily reports. The CSV was compiled by  researchers at the University of Reading and published on Zenodo (CC BY 4.0). I downloaded it from [this GitHub repository](https://github.com/tanshah0509-dotcom/India-Electricity-Demand-Forecasting).
 - Daily maximum temperature of Bengaluru from [Open-Meteo](https://open-meteo.com/).
 
 ## What I did
